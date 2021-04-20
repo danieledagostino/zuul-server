@@ -1,8 +1,8 @@
 zuul:
   routes:
     get:
-      path: /get/**
-      url: http://httpbin.org/get
+      path: /hi/**
+      url: https://dd-docker-demo.herokuapp.com/hi
     links:
       path: /links/**
       url: http://httpbin.org/links
